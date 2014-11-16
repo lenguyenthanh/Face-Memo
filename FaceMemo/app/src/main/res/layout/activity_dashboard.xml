@@ -76,7 +76,10 @@
             android:layout_gravity="center_horizontal"
             android:paddingLeft="@dimen/padding_xlarge"
             android:paddingRight="@dimen/padding_xlarge"
-            android:text="Memo Book" />
+            android:text="Memo Book"
+            android:textSize="@dimen/font_size_large"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_default"/>
     </LinearLayout>
 
 </LinearLayout>

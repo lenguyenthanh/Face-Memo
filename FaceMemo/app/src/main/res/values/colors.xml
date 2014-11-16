@@ -4,4 +4,7 @@
     <color name="text_normal">#6f6f6f</color>
     <color name="bg_action_bar">#009345</color>
     <color name="bg_gray">#EEEEEE</color>
+
+    <color name="btn_color">#009345</color>
+    <color name="btn_color_pressed">#005f2c</color>
 </resources>

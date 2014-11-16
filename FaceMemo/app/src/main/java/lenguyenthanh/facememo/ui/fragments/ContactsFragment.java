@@ -54,7 +54,6 @@ public class ContactsFragment extends BaseFragment {
         super.onViewCreated(view, savedInstanceState);
         Timber.d("onViewCreated");
         ButterKnife.inject(this, view);
-//        bindListContacts();
     }
 
     private void bindListContacts(List<Contact> list) {

@@ -1,1 +1,1 @@
-include ':app', ':db', ':cropimagelibrary'
+include ':app', ':db'

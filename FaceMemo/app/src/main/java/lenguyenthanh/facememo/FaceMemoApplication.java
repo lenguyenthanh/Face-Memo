@@ -33,7 +33,7 @@ public class FaceMemoApplication extends Application{
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
         } else {
-            // enable tracking (ex: Crashlytics)
+            // enable error tracking (ex: Crashlytics)
         }
     }
 
