@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    style="@style/Container"
+    android:orientation="vertical">
+
+    <FrameLayout
+        style="@style/Container"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/photoContainer"
+            style="@style/View.MatchParent"
+            android:background="@drawable/bg_blurr"
+            android:scaleType="centerCrop" />
+
+        <lenguyenthanh.facememo.ui.widgets.CircleImageView
+            android:id="@+id/imgProfile"
+            style="@style/View.MatchParent"
+            android:layout_margin="@dimen/padding_xlarge"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_new_face" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDetail"
+        style="@style/Container"
+        android:layout_weight="4"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_xlarge">
+
+        <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+            android:id="@+id/tvName"
+            style="@style/TextView.Contact"
+            android:drawableLeft="@drawable/ic_action_person"
+            custom:font="Light" />
+
+        <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+            android:id="@+id/tvPhone"
+            style="@style/TextView.Contact"
+            android:drawableLeft="@drawable/ic_action_call"
+            custom:font="Light" />
+
+        <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+            android:id="@+id/tvNote"
+            style="@style/TextView.Contact"
+            android:drawableLeft="@drawable/ic_action_new"
+            custom:font="Light" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutEdit"
+        style="@style/Container"
+        android:layout_weight="4"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_large"
+        android:visibility="gone">
+
+        <LinearLayout
+            style="@style/View.MatchParent.Width"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large">
+
+            <ImageView
+                style="@style/View.WrapContent"
+                android:adjustViewBounds="true"
+                android:duplicateParentState="true"
+                android:paddingRight="@dimen/padding_large"
+                android:src="@drawable/ic_action_person" />
+
+            <LinearLayout
+                style="@style/View.MatchParent.Width"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <lenguyenthanh.facememo.ui.widgets.fonts.FontEditTextView
+                    android:id="@+id/etFirstName"
+                    style="@style/EditText.Normal"
+                    android:hint="First Name"
+                    android:inputType="textPersonName"
+                    custom:font="Light" />
+
+                <lenguyenthanh.facememo.ui.widgets.fonts.FontEditTextView
+                    android:id="@+id/etLastName"
+                    style="@style/EditText.Normal"
+                    android:hint="Last Name"
+                    android:inputType="textPersonName"
+                    custom:font="Light" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/View.MatchParent.Width"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large">
+
+            <ImageView
+                style="@style/View.WrapContent"
+                android:adjustViewBounds="true"
+                android:duplicateParentState="true"
+                android:paddingRight="@dimen/padding_large"
+                android:src="@drawable/ic_action_call" />
+
+            <lenguyenthanh.facememo.ui.widgets.fonts.FontEditTextView
+                android:id="@+id/etPhone"
+                style="@style/EditText.Normal"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                custom:font="Light" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/View.MatchParent.Width"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large">
+
+            <ImageView
+                style="@style/View.WrapContent"
+                android:adjustViewBounds="true"
+                android:duplicateParentState="true"
+                android:paddingRight="@dimen/padding_large"
+                android:src="@drawable/ic_action_new" />
+
+            <lenguyenthanh.facememo.ui.widgets.fonts.FontEditTextView
+                android:id="@+id/etNote"
+                style="@style/EditText.Normal"
+                android:hint="Note"
+                android:inputType="textCapSentences"
+                custom:font="Light" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

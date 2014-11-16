@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<lenguyenthanh.facememo.ui.widgets.BetterViewAnimator
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    style="@style/Container"
+    android:id="@+id/content">
+
+    <ProgressBar
+        android:id="@+id/gallery_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/lvContacts"
+        style="@style/ListView" />
+
+    <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+        android:id="@+id/tvEmptyMessage"
+        style="@style/TextView.Big"
+        android:layout_gravity="center"
+        android:text="There is no face yet, please add some."
+        custom:font="Bold"
+        />
+</lenguyenthanh.facememo.ui.widgets.BetterViewAnimator>

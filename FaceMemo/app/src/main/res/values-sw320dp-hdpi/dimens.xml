@@ -1,0 +1,18 @@
+<resources>
+    <!--Container -->
+    <dimen name="padding_xlarge">15dp</dimen>
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_medium">7dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <!--Font Size -->
+    <dimen name="font_size_large">14.0sp</dimen>
+    <dimen name="font_size_medium">12.0sp</dimen>
+    <dimen name="font_size_micro">8.0sp</dimen>
+    <dimen name="font_size_small">10.0sp</dimen>
+    <dimen name="font_size_xlarge">16.0sp</dimen>
+    <dimen name="font_size_xxlarge">18.0sp</dimen>
+
+    <dimen name="photo_small_size">40dp</dimen>
+    <dimen name="photo_medium_size">60dp</dimen>
+    <dimen name="horizontal_list_height">100dp</dimen>
+</resources>

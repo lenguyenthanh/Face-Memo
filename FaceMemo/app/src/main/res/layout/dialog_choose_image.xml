@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Dialog"
+    tools:ignore="UselessParent,HardcodedText"
+    android:clickable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/Dialog.Background">
+        <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+            android:id="@+id/tvTakePhoto"
+            style="@style/TextView.Big.ChooseImageDialog"
+            custom:font="Bold"
+            android:text="Take Photo" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/bg_gray"/>
+        <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+            android:id="@+id/tvChooseExist"
+            style="@style/TextView.Big.ChooseImageDialog"
+            custom:font="Bold"
+            android:text="Choose existing photo" />
+    </LinearLayout>
+</FrameLayout>

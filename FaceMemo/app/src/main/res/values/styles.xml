@@ -2,7 +2,134 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
     </style>
+
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/bg_action_bar</item>
+    </style>
+
+    <style  name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+    </style>
+
+    <style name="View">
+    </style>
+
+    <style name="View.WrapContent" parent="View">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="View.MatchParent" parent="View">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="View.MatchParent.Width" parent="View.MatchParent">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="View.MatchParent.Height" parent="View.MatchParent">
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="Container" parent="View.MatchParent">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="ListView" parent="android:Widget.Holo.Light.ListView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="TextView.Big" parent="TextView.Normal">
+        <item name="android:textSize">@dimen/font_size_xlarge</item>
+    </style>
+    <style name="TextView.Normal" parent="View.WrapContent">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <!-- Dialog-->
+    <style name="DialogAnimationFade">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="Dialog">
+        <item name="android:background">#AA000000</item>
+        <item name="android:minHeight">1000dp</item>
+        <item name="android:minWidth">1000dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Dialog.Background" parent="View.MatchParent.Width">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">310dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#fdfdfd</item>
+    </style>
+
+    <style name="DialogButton" parent="View.MatchParent.Width">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="Theme.Dialog.Actions" parent="@android:style/Theme.Holo.Dialog.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:windowAnimationStyle">@style/SlideDownAnimationDialog</item>
+    </style>
+    <style name="SlideDownAnimationDialog">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+    <style name="TextView.Contact" parent="TextView.Big">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/padding_xlarge</item>
+        <item name="android:paddingBottom">@dimen/padding_xlarge</item>
+    </style>
+
+    <style name="TextView.Big.ChooseImageDialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+    </style>
+
+    <style name="EditText.Normal" parent="View.MatchParent.Width">
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/text_normal</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+    <!-- Dialog-->
 
 </resources>

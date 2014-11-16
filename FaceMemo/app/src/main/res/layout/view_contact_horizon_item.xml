@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    style="@style/View.WrapContent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/padding_small"
+    android:paddingLeft="@dimen/padding_medium"
+    android:paddingRight="@dimen/padding_medium"
+    android:paddingTop="@dimen/padding_medium"
+    android:orientation="vertical">
+
+    <lenguyenthanh.facememo.ui.widgets.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="@dimen/photo_medium_size"
+        android:layout_height="@dimen/photo_medium_size"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_avatar_default"
+        />
+
+    <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+        android:id="@+id/tvContactName"
+        style="@style/TextView.Normal"
+        android:textStyle="bold"
+        custom:font="Bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

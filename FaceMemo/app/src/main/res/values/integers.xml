@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="activity_anim_duration">250</integer>
+    <integer name="abbr_number_divider_millions">1000000</integer>
+    <integer name="abbr_number_divider_thousands">1000</integer>
+    <integer name="bio_lines">3</integer>
+    <integer name="bounceAnimTime">120</integer>
+    <integer name="full_name_max_length">20</integer>
+    <integer name="new_tweet_banner_full_duration">600</integer>
+    <integer name="new_tweet_banner_short_duration">300</integer>
+    <integer name="rotateAnimTime">175</integer>
+</resources>

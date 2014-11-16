@@ -1,0 +1,8 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.7.4 built on Friday Oct 25, 2013 at 15:00:26 GMT
+---- Dump Properties ---
+Dump file: ajcore.20141116.155203.566.txt
+Dump reason: java.lang.OutOfMemoryError
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---

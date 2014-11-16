@@ -1,0 +1,240 @@
+---- AspectJ Properties ---
+AspectJ Compiler 1.7.4 built on Friday Oct 25, 2013 at 15:00:26 GMT
+---- Dump Properties ---
+Dump file: ajcore.20141116.121219.173.txt
+Dump reason: java.lang.OutOfMemoryError
+Dump on exception: true
+Dump at exit condition: abort
+---- Exception Information ---
+java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.initializeParser(Compiler.java:701)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.<init>(Compiler.java:283)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.<init>(Compiler.java:107)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation(AjBuildManager.java:1024)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performBuild(AjBuildManager.java:272)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:185)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:371)
+	at org.aspectj.tools.ajc.Main$run.call(Unknown Source)
+---- System Properties ---
+java.vendor=Oracle Corporation
+com.apple.mrj.application.live-resize=false
+sun.java.launcher=SUN_STANDARD
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+idea.paths.selector=AndroidStudioBeta
+os.name=Mac OS X
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/classes
+java.vm.specification.vendor=Oracle Corporation
+java.runtime.version=1.7.0_72-b14
+idea.java.redist=NoJavaDistribution
+user.name=lenguyenthanh
+awt.nativeDoubleBuffering=true
+apple.awt.fullscreencapturealldisplays=false
+java.rmi.server.disableHttp=true
+idea.use.default.antialiasing.in.editor=false
+idea.active=true
+idea.home.path=/Applications/Android Studio.app/Contents
+http.keepAlive=true
+user.language=en
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib
+apple.awt.graphics.UseOpenGL=false
+idea.fatal.error.notification=enabled
+jna.nosys=true
+swing.bufferPerWindow=false
+CVS_PASSFILE=~/.cvspass
+java.version=1.7.0_72
+user.timezone=GMT+07:00
+java.net.preferIPv4Stack=true
+sun.arch.data.model=64
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+java.endorsed.dirs=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed
+apple.awt.UIElement=true
+sun.cpu.isalist=
+sun.jnu.encoding=UTF-8
+file.encoding.pkg=sun.io
+file.separator=/
+java.specification.name=Java Platform API Specification
+jsse.enableSNIExtension=false
+java.class.version=51.0
+user.country=US
+java.home=/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre
+java.vm.info=mixed mode
+os.version=10.10
+path.separator=:
+java.vm.version=24.72-b04
+idea.smooth.progress=false
+org.xerial.snappy.tempdir=/Users/lenguyenthanh/Library/Caches/AndroidStudioBeta/tmp
+idea.no.launcher=false
+user.variant=
+java.awt.printerjob=apple.awt.CPrinterJob
+sun.io.unicode.encoding=UnicodeBig
+idea.cycle.buffer.size=1024
+awt.toolkit=apple.awt.CToolkit
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+io.netty.processId=32196
+log4j.defaultInitOverride=true
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+idea.platform.prefix=AndroidStudio
+user.home=/Users/lenguyenthanh
+idea.dynamic.classpath=false
+__idea.mac.env.lock=unlocked
+java.specification.vendor=Oracle Corporation
+apple.laf.useScreenMenuBar=true
+jna.encoding=UTF8
+java.library.path=/Users/lenguyenthanh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+java.vendor.url=http://java.oracle.com/
+java.vm.vendor=Oracle Corporation
+gopherProxySet=false
+external.system.remote.process.idle.ttl.ms=-1
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.java.command=org.gradle.launcher.daemon.bootstrap.GradleDaemon 2.1 /Users/lenguyenthanh/.gradle/daemon 10800000 4be6b910-ab6d-4764-a753-4055a0cfc77f -XX:MaxPermSize=256m -XX:+HeapDumpOnOutOfMemoryError -Xmx1024m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant
+java.class.path=/Users/lenguyenthanh/.gradle/wrapper/dists/gradle-2.1-all/27drb4udbjf4k88eh2ffdc0n55/gradle-2.1/lib/gradle-launcher-2.1.jar
+io.netty.machineId=9e43d860
+java.vm.specification.name=Java Virtual Machine Specification
+idea.xdebug.key=-Xdebug
+idea.popup.weight=heavy
+java.vm.specification.version=1.7
+sun.cpu.endian=little
+sun.os.patch.level=unknown
+java.io.tmpdir=/var/folders/qw/t8m_s2ts0t763c3gpd9jxhvm0000gn/T/
+java.vendor.url.bug=http://bugreport.apple.com/
+java.rmi.server.hostname=localhost
+jna.platform.library.path=/usr/lib:/usr/lib
+mrj.build=11M4716
+os.arch=x86_64
+java.awt.graphicsenv=apple.awt.CGraphicsEnvironment
+idea.max.intellisense.filesize=2500
+java.ext.dirs=/Users/lenguyenthanh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+mrj.version=1070.1.6.0_65-466.1
+user.dir=/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app
+apple.awt.graphics.UseQuartz=true
+line.separator=
+
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding=UTF-8
+jna.nounpack=false
+java.specification.version=1.7
+---- Command Line ---
+-showWeaveInfo
+-1.5
+-inpath
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/classes/debug
+-aspectpath
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.0/fc1bb0b579277b34d086aa10fd9b6238ebfa3272/greendao-1.3.0.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.keyboardsurfer.android.widget/crouton/1.8.5/f085933fd4fad9693229d105d6d6d01fa90bb599/crouton-1.8.5.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/classes.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/commons-io-1.3.2.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/android-support-v13.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.1.0/classes.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/2.2.2/2cd7e2012b93ffd30ef963c7ffcbebb54db5f5a2/timber-2.2.2.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/image-chooser-library-1.3.1.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.1.0/e67a622a9034c9e995750528180b8e19434f6e02/hugo-annotations-1.1.0.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/android-test/4.1.1.4/5ac4da79230c68fc7d60dc6b02f1c153fca7a6e6/android-test-4.1.1.4.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.2/daf5472b0df6dabaceb6ad755b3812535863965a/butterknife-5.1.2.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.4/e49a5c0acee8fd66225dc1d031692d132323417f/aspectjrt-1.7.4.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/FaceMemo/cropimagelibrary/unspecified/classes.jar
+-d
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/classes/debug
+-classpath
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.0/fc1bb0b579277b34d086aa10fd9b6238ebfa3272/greendao-1.3.0.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.keyboardsurfer.android.widget/crouton/1.8.5/f085933fd4fad9693229d105d6d6d01fa90bb599/crouton-1.8.5.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/classes.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/commons-io-1.3.2.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/android-support-v13.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.1.0/classes.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/2.2.2/2cd7e2012b93ffd30ef963c7ffcbebb54db5f5a2/timber-2.2.2.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/image-chooser-library-1.3.1.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.1.0/e67a622a9034c9e995750528180b8e19434f6e02/hugo-annotations-1.1.0.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/android-test/4.1.1.4/5ac4da79230c68fc7d60dc6b02f1c153fca7a6e6/android-test-4.1.1.4.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.2/daf5472b0df6dabaceb6ad755b3812535863965a/butterknife-5.1.2.jar:/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.4/e49a5c0acee8fd66225dc1d031692d132323417f/aspectjrt-1.7.4.jar:/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/FaceMemo/cropimagelibrary/unspecified/classes.jar
+-bootclasspath
+/Users/lenguyenthanh/Tools/sdk/platforms/android-21/android.jar
+---- Full Classpath ---
+/Users/lenguyenthanh/Tools/sdk/platforms/android-21/android.jar(25819751 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/classes/debug(2 entries)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.0/fc1bb0b579277b34d086aa10fd9b6238ebfa3272/greendao-1.3.0.jar(88431 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar(120640 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.keyboardsurfer.android.widget/crouton/1.8.5/f085933fd4fad9693229d105d6d6d01fa90bb599/crouton-1.8.5.jar(25288 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/classes.jar(158374 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar(114737 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/commons-io-1.3.2.jar(87776 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/android-support-v13.jar(775670 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.1.0/classes.jar(6426 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar(3120 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/2.2.2/2cd7e2012b93ffd30ef963c7ffcbebb54db5f5a2/timber-2.2.2.jar(6918 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/image-chooser-library-1.3.1.jar(35371 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.1.0/e67a622a9034c9e995750528180b8e19434f6e02/hugo-annotations-1.1.0.jar(833 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/android-test/4.1.1.4/5ac4da79230c68fc7d60dc6b02f1c153fca7a6e6/android-test-4.1.1.4.jar(40749 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.2/daf5472b0df6dabaceb6ad755b3812535863965a/butterknife-5.1.2.jar(46226 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.4/e49a5c0acee8fd66225dc1d031692d132323417f/aspectjrt-1.7.4.jar(119683 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/FaceMemo/cropimagelibrary/unspecified/classes.jar(96265 bytes)
+/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext/dnsns.jar(8923 bytes)
+/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext/localedata.jar(550701 bytes)
+/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext/sunec.jar(15930 bytes)
+/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar(198406 bytes)
+/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar(238785 bytes)
+/Library/Java/JavaVirtualMachines/jdk1.7.0_72.jdk/Contents/Home/jre/lib/ext/zipfs.jar(68751 bytes)
+/System/Library/Java/Extensions/AppleScriptEngine.jar(6476 bytes)
+/System/Library/Java/Extensions/dns_sd.jar(17780 bytes)
+/System/Library/Java/Extensions/j3daudio.jar(1223495 bytes)
+/System/Library/Java/Extensions/j3dcore.jar(1157355 bytes)
+/System/Library/Java/Extensions/j3dutils.jar(685307 bytes)
+/System/Library/Java/Extensions/jai_codec.jar(275500 bytes)
+/System/Library/Java/Extensions/jai_core.jar(1544543 bytes)
+/System/Library/Java/Extensions/mlibwrapper_jai.jar(41239 bytes)
+/System/Library/Java/Extensions/MRJToolkit.jar(12847 bytes)
+/System/Library/Java/Extensions/vecmath.jar(127639 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.0/fc1bb0b579277b34d086aa10fd9b6238ebfa3272/greendao-1.3.0.jar(88431 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/junit/junit/3.8.2/7e4cde26b53a9a0e3fe5b00d1dbbc7cc1d46060/junit-3.8.2.jar(120640 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/de.keyboardsurfer.android.widget/crouton/1.8.5/f085933fd4fad9693229d105d6d6d01fa90bb599/crouton-1.8.5.jar(25288 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/it.sephiroth.android.library.horizontallistview/hlistview/1.2.2/classes.jar(158374 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar(114737 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/commons-io-1.3.2.jar(87776 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/android-support-v13.jar(775670 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/com.jakewharton.hugo/hugo-runtime/1.1.0/classes.jar(6426 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar(3120 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/2.2.2/2cd7e2012b93ffd30ef963c7ffcbebb54db5f5a2/timber-2.2.2.jar(6918 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/libs/image-chooser-library-1.3.1.jar(35371 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton.hugo/hugo-annotations/1.1.0/e67a622a9034c9e995750528180b8e19434f6e02/hugo-annotations-1.1.0.jar(833 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.google.android/android-test/4.1.1.4/5ac4da79230c68fc7d60dc6b02f1c153fca7a6e6/android-test-4.1.1.4.jar(40749 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/5.1.2/daf5472b0df6dabaceb6ad755b3812535863965a/butterknife-5.1.2.jar(46226 bytes)
+/Users/lenguyenthanh/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.7.4/e49a5c0acee8fd66225dc1d031692d132323417f/aspectjrt-1.7.4.jar(119683 bytes)
+/Users/lenguyenthanh/git/Face-Memo/FaceMemo/app/build/intermediates/exploded-aar/FaceMemo/cropimagelibrary/unspecified/classes.jar(96265 bytes)
+---- Compiler Messages ---
+abort ABORT -- (OutOfMemoryError) PermGen space
+PermGen space
+java.lang.OutOfMemoryError: PermGen space
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.initializeParser(Compiler.java:701)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.<init>(Compiler.java:283)
+	at org.aspectj.org.eclipse.jdt.internal.compiler.Compiler.<init>(Compiler.java:107)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performCompilation(AjBuildManager.java:1024)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.performBuild(AjBuildManager.java:272)
+	at org.aspectj.ajdt.internal.core.builder.AjBuildManager.batchBuild(AjBuildManager.java:185)
+	at org.aspectj.ajdt.ajc.AjdtCommand.doCommand(AjdtCommand.java:112)
+	at org.aspectj.ajdt.ajc.AjdtCommand.runCommand(AjdtCommand.java:60)
+	at org.aspectj.tools.ajc.Main.run(Main.java:371)
+	at org.aspectj.tools.ajc.Main$run.call(Unknown Source)
+

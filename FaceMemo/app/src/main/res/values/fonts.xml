@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontTextView">
+        <attr name="font" format="enum">
+            <enum name="Bold" value="1" />
+            <enum name="Bold_Italic" value="2" />
+            <enum name="Light" value="3" />
+            <enum name="Light_Italic" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+        android:id="@+id/tvName"
+        style="@style/TextView.Contact"
+        android:drawableLeft="@drawable/ic_action_person"
+        custom:font="Light" />
+
+    <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+        android:id="@+id/tvPhone"
+        style="@style/TextView.Contact"
+        android:drawableLeft="@drawable/ic_action_call"
+        custom:font="Light" />
+
+    <lenguyenthanh.facememo.ui.widgets.fonts.FontTextView
+        android:id="@+id/tvNote"
+        style="@style/TextView.Contact"
+        android:drawableLeft="@drawable/ic_action_new"
+        custom:font="Light" />
+</LinearLayout>
