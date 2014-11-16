@@ -11,7 +11,7 @@ This project uses these libraries:
 2. Commons io - Apache
 3. Image-choose library
 4. Butterkife: inject view library
-5: Picasso: Image loader library
+5. Picasso: Image loader library
 6. Horizontal Listview
 7. GreenDao: Orm library for android
 8. Crourton: Nice message display for android
