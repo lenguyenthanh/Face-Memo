@@ -85,7 +85,8 @@
                     style="@style/EditText.Normal"
                     android:hint="First Name"
                     android:inputType="textPersonName"
-                    custom:font="Light" />
+                    custom:font="Light"
+                    android:nextFocusDown="@+id/etLastName"/>
 
                 <lenguyenthanh.facememo.ui.widgets.fonts.FontEditTextView
                     android:id="@+id/etLastName"
